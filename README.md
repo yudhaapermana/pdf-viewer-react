@@ -1,12 +1,50 @@
-# React + Vite
+# PDF Viewer - React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple PDF viewer built with React, using `react-pdf-viewer`, styled with TailwindCSS, and powered by Vite for fast development.
 
-Currently, two official plugins are available:
+## Teknologi yang Digunakan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Library JavaScript untuk membangun UI.
+- **react-pdf-viewer**: Plugin React untuk menampilkan file PDF.
+- **TailwindCSS**: Framework utility-first untuk styling.
+- **Vite**: Build tool yang cepat dan ringan untuk pengembangan frontend.
 
-## Expanding the ESLint configuration
+## Fitur
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Menampilkan file PDF secara interaktif.
+- Navigasi halaman PDF dengan kontrol yang mudah.
+- Styling menggunakan TailwindCSS.
+- Pengembangan cepat dengan Vite.
+
+## Prasyarat
+
+Pastikan Anda memiliki `Node.js` dan `yarn` terinstal di sistem Anda.
+
+### Instalasi
+
+Ikuti langkah-langkah berikut untuk mengatur dan menjalankan project ini di mesin lokal Anda.
+
+1. Clone repository ini:
+
+    ```bash
+    git clone https://github.com/yudhaapermana/pdf-viewer-react.git
+    ```
+
+2. Masuk ke direktori project:
+
+    ```bash
+    cd pdf-viewer-react
+    ```
+
+3. Instal dependensi menggunakan yarn:
+
+    ```bash
+    yarn install
+    ```
+
+### Menjalankan Project
+
+Untuk menjalankan project di development mode:
+
+```bash
+yarn dev
